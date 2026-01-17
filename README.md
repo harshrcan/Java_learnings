@@ -1,3 +1,3 @@
 here i add my learnings for java basics i get from tutorials to help recall a particular thing in future ,,, i have created a different repo for my java projects ...
-these learnings and quick notes are from https://youtu.be/UmnCZ7-9yDY (apna college - hindi)(for quick basic understanding) and    (broCode - english )(for depth knowledeg of each topic and simultaneously building projects) videoes 
+these learnings and quick notes are from https://youtu.be/UmnCZ7-9yDY (apna college - hindi)(for quick basic understanding) and  https://youtu.be/xTtL8E4LzTQ  (broCode - english )(for depth knowledeg of each topic and simultaneously building projects) videoes 
 i have created another repo for my java projects and added some basic mini projects in this repo too
