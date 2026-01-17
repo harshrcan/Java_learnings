@@ -1,0 +1,37 @@
+# Java Data Types Quick Reference
+
+## Primitive Data Types
+
+| Type      | Size    | Stores                   | Simple example              | Real-world meaning      |
+| --------- | ------- | ------------------------ | --------------------------- | ----------------------- |
+| `byte`    | 1 byte  | very small whole numbers | `byte age = 20;`            | sensor data, file bytes |
+| `short`   | 2 bytes | small whole numbers      | `short year = 2025;`        | limited counters        |
+| `int`     | 4 bytes | whole numbers            | `int marks = 85;`           | IDs, counts             |
+| `long`    | 8 bytes | large whole numbers      | `long views = 9000000L;`    | population, timestamps  |
+| `float`   | 4 bytes | decimal numbers          | `float price = 10.5f;`      | rough calculations      |
+| `double`  | 8 bytes | precise decimals         | `double salary = 55000.75;` | money, analytics        |
+| `char`    | 2 bytes | single character         | `char grade = 'A';`         | letters, symbols        |
+| `boolean` | 1 bit   | true / false             | `boolean loggedIn = true;`  | conditions, flags       |
+
+## Non-Primitive Data Types
+
+| Type        | Size    | Stores                    | Simple example               | Real-world meaning |
+| ----------- | ------- | ------------------------- | ---------------------------- | ------------------ |
+| `String`    | varies  | text                      | `String name = "Harsh";`     | names, emails      |
+| `Array`     | fixed   | multiple same-type values | `int[] a = {1,2,3};`         | marks list         |
+| `Class`     | varies  | data + behavior           | `Student s = new Student();` | users, products    |
+| `Object`    | varies  | instance of class         | `Object o = new Object();`   | generic data       |
+| `Interface` | —       | rules/contracts           | `interface Pay {}`           | payment methods    |
+| `Enum`      | fixed   | constant values           | `enum Status {ON,OFF}`       | states, roles      |
+| `ArrayList` | dynamic | resizable list            | `new ArrayList<>();`         | carts, feeds       |
+| `HashSet`   | dynamic | unique values             | `new HashSet<>();`           | unique users       |
+| `HashMap`   | dynamic | key-value pairs           | `new HashMap<>();`           | database rows      |
+
+---
+
+### Quick Memory Tip
+
+* **Primitive** → stores the actual value directly.
+* **Non-Primitive** → stores a reference to the object in memory.
+
+This cheat sheet helps you quickly recall all Java data types and their practical uses.
