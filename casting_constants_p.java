@@ -1,4 +1,4 @@
- public class casting_p{
+public class casting_constants_p{
 	 
 	 public static void main(String[] args) {
 		 
@@ -12,6 +12,11 @@
 		 
 		 
 		 System.out.println(fP);
+		 
+		 
+		 //Constants
+		 final float PI = 3.14F;
+		 System.out.println(PI);
 		 
 	 } 
  }
