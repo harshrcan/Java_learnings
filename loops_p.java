@@ -35,7 +35,22 @@ public class loops_p{
 		}while(number >= 0); 
 		
 		System.out.println("the end");
+		////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		//break and continue
 		
+		int i = 0;
+		while(true) {
+			System.out.println(i);
+			i++;
+			
+			if(i == 3) {
+				i++; 
+				continue;}/// wont print 3 and skip it
+			
+			
+			if(i > 5) {break;}
+		}
 	
 	}
+
 	}
