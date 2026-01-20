@@ -1,90 +1,47 @@
-# 📘 Java Basics – Learning Notes & Quick Recall
+# 📘 Java Basics – Quick Recall Notes
 
-This repository contains my Java basics learnings, notes, and small experiments collected while following structured video tutorials.  
-The primary goal of this repo is quick recall, concept reinforcement, and reference—not full-scale production projects.
+> **Note:** This repository is designed strictly for **speed and concept recall**. It focuses on surface-level syntax and fundamentals, not deep production-level implementation.
 
-For larger and more structured Java projects, I have created a separate repository.
+## 🎯 Purpose
+This repository acts as a **Java flashcard notebook**. It is intended for:
+* ⚡ **10–30 second revision** per concept.
+* 📝 **Basic syntax** reference.
+* 🧠 **Memory triggers** (recalling what a concept is and how it looks).
 
----
-
-## 🎯 Purpose of This Repository
-
-- Acts as a personal Java notebook
-- Enables fast revision (15-30 seconds per concept)
-- Stores small code snippets and mini experiments
-- Helps quickly recall how and why a Java concept works
-
-Think of this repository as Java flashcards written in code form.
-
----
+*Think of this as a "Java Cheat Sheet" written for speed, not depth.*
 
 ## 📚 Learning Sources
+The primary source for these notes is **Apna College (Hindi)**.
 
-The content in this repository is based on learnings from the following tutorials:
+* 📺 **Source:** [Java Placement Course - Apna College](https://youtu.be/UmnCZ7-9yDY)
+* **Focus:** Quick onboarding and syntax familiarity.
+* **Use Case:** Rapid revision before exams or interviews.
 
-### Apna College (Hindi)
-https://youtu.be/UmnCZ7-9yDY  
-- Used for quick surface-level understanding
-- Focuses on fundamentals and syntax familiarity
-- Ideal for fast onboarding and revision
+> ⚠️ **Disclaimer:** This repository does **not** contain detailed explanations or BroCode-style deep dives.
 
-### BroCode (English)
-https://youtu.be/xTtL8E4LzTQ  
-- Used for deeper understanding of each topic
-- Explains concepts with reasoning and practical usage
-- Involves building alongside projects and real examples
+## 🗂️ File Naming Convention (`*_p.java`)
+All files in this repository follow a specific naming convention to distinguish them as "practice/preliminary" notes.
 
-Both resources are used together:
-- Apna College for quick conceptual clarity
-- BroCode for depth, structure, and best practices
+| Suffix | Meaning | Example |
+| :--- | :--- | :--- |
+| `_p.java` | **Practice / Preliminary.** Basic, surface-level notes based on Apna College learnings. | `operators_p.java`, `loops_p.java` |
 
----
+## 📦 Context: This vs. Deep Learning Repo
+I maintain two separate repositories to separate **speed** from **depth**.
 
-## 🗂️ File Naming Convention
+| **This Repository** 🚀 | **Detailed Repository** 🧠 |
+| :--- | :--- |
+| **Source:** Apna College | **Source:** BroCode |
+| Lightweight & Fast | Structured & In-depth |
+| Syntax & Recall | Best Practices & Theory |
+| "What is this?" | "Why does this work?" |
 
-### Files ending with `_p.java`
-- Learned from Apna College
-- Very basic and surface-level
-- Intended for quick 10–15 second revision
-- Covers only what the concept is and its simplest usage
+## 🚀 How to Use
+1. Open any `_p.java` file.
+2. Skim the comments and code for instant recall.
+3. Use immediately before **exams**, **interviews**, or when **switching back to Java**.
 
-
----
-
-### Files without `_p.java`
-- Learned from BroCode
-- Contain detailed explanations and cleaner logic
-- Focus on practical understanding and proper coding style
-- May include extended examples or mini implementations
-
-
----
-
-## 🧪 Mini Projects
-
-This repository also includes a few basic mini projects created while learning Java concepts.  
-These projects are exploratory and meant for applying concepts immediately after learning them.
-
-Larger and more structured Java projects are maintained in a separate repository.
-
----
-
-## 🚀 How to Use This Repository
-
-- Open a file and skim through comments for fast recall
-- Use `_p.java` files for rapid revision before exams or interviews
-- Use non-`_p` files for deeper conceptual refresh
-- Treat this repository as a Java cheatbook rather than a project showcase
-
----
-
-## 🧠 Learning Philosophy
-
-Learning is more effective when:
-- Concepts are written in your own words
-- Code is revisited instead of only watching tutorials
-- Recall and clarity are prioritized over perfection
-
-This repository is intentionally simple, practical, and recall-oriented.
-
-
+## 🧪 Philosophy
+* **Recall > Perfection** (at this stage).
+* **Writing Code > Watching Tutorials.**
+* **Simplicity reduces cognitive load.**
