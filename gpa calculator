@@ -1,0 +1,45 @@
+import java.util.Scanner;
+
+public class gpa {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        int totalC;
+        double percent;
+        double totalGPA = 0.0;
+        double courseGPA;
+
+        System.out.print("Enter your total number of courses: ");
+        totalC = scanner.nextInt();
+
+        while (totalC < 1) {
+            System.out.print("Invalid! Enter at least 1 course: ");
+            totalC = scanner.nextInt();
+        }
+
+        for (int i = 0; i < totalC; i++) {
+            System.out.print("Enter your marks in percentage for course " + (i + 1) + ": ");
+            percent = scanner.nextDouble();
+
+            while (percent < 0 || percent > 100) {
+                System.out.print("Invalid! Enter a percentage between 0 and 100: ");
+                percent = scanner.nextDouble();
+            }
+
+            // Convert percentage to GPA (4.0 scale)
+            if (percent >= 90) courseGPA = 4.0;
+            else if (percent >= 80) courseGPA = 3.0 + (percent - 80)/10; // 3.0 to 3.9
+            else if (percent >= 70) courseGPA = 2.0 + (percent - 70)/10; // 2.0 to 2.9
+            else if (percent >= 60) courseGPA = 1.0 + (percent - 60)/10; // 1.0 to 1.9
+            else courseGPA = 0.0;
+
+            totalGPA += courseGPA;
+        }
+
+        double overallGPA = totalGPA / totalC;
+        System.out.printf("You have %d courses.%n", totalC);
+        System.out.printf("Your overall GPA is: %.2f%n", overallGPA);
+
+        scanner.close();
+    }
+}
